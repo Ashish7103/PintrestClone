@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 var dotEnc=require("dotenv").config();
 const plm = require('passport-local-mongoose');
 
-const mongoAtlasUri = "mongodb+srv://PintrestDev:roar@ashish7103.scqctsd.mongodb.net/Pins?retryWrites=true&w=majority";
+const mongoAtlasUri = "mongodb+srv://PintrestDev:nqtxuD3O7d9dHwQP@ashish7103.scqctsd.mongodb.net/Pins?retryWrites=true&w=majority";
 
 // Connect to the MongoDB cluster
 mongoose.connect(mongoAtlasUri

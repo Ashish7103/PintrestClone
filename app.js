@@ -2,6 +2,7 @@ var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
 var dotEnv=require("dotenv").config();
+const passportSetup=require("./routes/passport")
 
 
 
